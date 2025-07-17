@@ -39,7 +39,7 @@ An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakista
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/retail‑sales‑analysis.git
+   git clone https://github.com/shahab-ghafoor/retail‑sales‑analysis.git
    cd retail‑sales‑analysis
 
 
