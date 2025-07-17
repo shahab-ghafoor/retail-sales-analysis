@@ -3,12 +3,12 @@
 **A comprehensive analysis of digitized sales data for an independent retail store.**
 
 
-## 📖 Background
+## Background
 
 An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakistan, maintained paper records of every transaction. To optimize inventory management, identify best-selling products, and gain a better understanding of customer spending patterns, these records were digitized and analyzed using Python and the pandas library.
 
 
-## 🚀 Objectives
+## Objectives
 
 1. **Import & preprocess** the raw CSV sales data into a pandas DataFrame.  
 2. **Explore the dataset** to understand data types, detect outliers, and inspect top transactions.  
@@ -17,7 +17,7 @@ An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakista
 5. **Provide actionable insights** and recommendations to the store owners.
 
 
-## 💾 Data
+## Data
 
 - **Source:**  
   - `data/sales.csv` (raw transaction log provided by store owners, uploaded to this repository’s `data/` folder)
@@ -35,7 +35,7 @@ An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakista
   | `amount`         | float64 | Line total (units_sold × price_per_unit)                         |
 
 
-## 🛠 Environment
+## Environment
 
 1. **Clone the repository**  
    ```bash
@@ -43,7 +43,7 @@ An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakista
    cd retail‑sales‑analysis
 
 
-## 📊 Key Findings
+## Key Findings
 
 - **Highest single‑line sale:** A vintage kitchen cabinet sold for $ 295.00 in one invoice.  
 - **Top‑selling product by frequency:** “HAND WARMER BIRD DESIGN” appeared on 8 invoices, with 14 units sold in total.  
@@ -53,7 +53,7 @@ An elderly couple operating a brick‑and‑mortar retail store in Swat, Pakista
   - Total revenue: $ 2,102.03  
 - **Units‑to‑revenue relationship:** Moderate positive correlation (r ≈ 0.62), indicating larger orders tend to generate proportionally higher revenue.  
 
-### 🔍 Recommendations
+### Recommendations
 
 1. **Stock up** on hand warmers and 3‑tier cake tins—top revenue generators.  
 2. **Bundle promotions** around frequently co‑purchased items (e.g., hand warmers + seasonal décor).  
